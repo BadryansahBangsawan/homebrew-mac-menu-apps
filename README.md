@@ -31,3 +31,5 @@ Apps are menu extras (no Dock icon). Builds are ad-hoc signed; if Gatekeeper blo
 Requires macOS 14+ (Sonoma or newer). Not submitted to `homebrew/cask`; install only from this tap.
 
 Tap name is `BadryansahBangsawan/mac-menu-apps` (repo folder `homebrew-mac-menu-apps`). After `brew tap`, use `brew install --cask <cask>` with a name from the table above.
+
+To remove one later: `brew uninstall --cask <cask>` (keeps the tap; use `brew untap BadryansahBangsawan/mac-menu-apps` only if you want the tap gone too).
