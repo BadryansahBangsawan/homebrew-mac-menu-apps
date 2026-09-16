@@ -32,4 +32,6 @@ Requires macOS 14+ (Sonoma or newer). Not submitted to `homebrew/cask`; install 
 
 Tap name is `BadryansahBangsawan/mac-menu-apps` (repo folder `homebrew-mac-menu-apps`). After `brew tap`, use `brew install --cask <cask>` with a name from the table above.
 
+To pick up a newer build from this tap: `brew update && brew upgrade --cask <cask>`.
+
 To remove one later: `brew uninstall --cask <cask>` (keeps the tap; use `brew untap BadryansahBangsawan/mac-menu-apps` only if you want the tap gone too).
