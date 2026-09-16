@@ -28,6 +28,6 @@ Apps are menu extras (no Dock icon). Builds are ad-hoc signed; if Gatekeeper blo
 | devfs | DevFS |
 | homoglyph-inspector | Homoglyph Inspector |
 
-Requires macOS 14+. Not submitted to `homebrew/cask`.
+Requires macOS 14+ (Sonoma or newer). Not submitted to `homebrew/cask`; install only from this tap.
 
 Tap name is `BadryansahBangsawan/mac-menu-apps` (repo folder `homebrew-mac-menu-apps`). After `brew tap`, use `brew install --cask <cask>` with a name from the table above.
