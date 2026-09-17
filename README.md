@@ -35,3 +35,5 @@ Tap name is `BadryansahBangsawan/mac-menu-apps` (repo folder `homebrew-mac-menu-
 To pick up a newer build from this tap: `brew update && brew upgrade --cask <cask>`.
 
 To remove one later: `brew uninstall --cask <cask>` (keeps the tap; use `brew untap BadryansahBangsawan/mac-menu-apps` only if you want the tap gone too).
+
+To see which casks this tap currently exposes after tapping: `brew search --casks --tap=BadryansahBangsawan/mac-menu-apps` (or skim the table above).
