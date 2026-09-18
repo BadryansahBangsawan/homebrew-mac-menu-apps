@@ -41,3 +41,5 @@ To see which casks this tap currently exposes after tapping: `brew search --cask
 To list which of these casks are already installed on this Mac: `brew list --cask | grep -E 'hotkey-detective|localhost-switchboard|repo-hud|frontmost-copilot|layout-presets|simulator-drop|capture-to-issue|spotlight-code|focus-build|devfs|homoglyph-inspector'`.
 
 To inspect a cask formula (homepage, version, artifacts) before installing: `brew info --cask <cask>`.
+
+To check whether a newer cask build is available without upgrading yet: `brew outdated --cask`.
