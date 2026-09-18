@@ -39,3 +39,5 @@ To remove one later: `brew uninstall --cask <cask>` (keeps the tap; use `brew un
 To see which casks this tap currently exposes after tapping: `brew search --casks --tap=BadryansahBangsawan/mac-menu-apps` (or skim the table above).
 
 To list which of these casks are already installed on this Mac: `brew list --cask | grep -E 'hotkey-detective|localhost-switchboard|repo-hud|frontmost-copilot|layout-presets|simulator-drop|capture-to-issue|spotlight-code|focus-build|devfs|homoglyph-inspector'`.
+
+To inspect a cask formula (homepage, version, artifacts) before installing: `brew info --cask <cask>`.
