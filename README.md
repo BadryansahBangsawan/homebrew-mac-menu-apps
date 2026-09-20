@@ -43,3 +43,5 @@ To list which of these casks are already installed on this Mac: `brew list --cas
 To inspect a cask formula (homepage, version, artifacts) before installing: `brew info --cask <cask>`.
 
 To check whether a newer cask build is available without upgrading yet: `brew outdated --cask`.
+
+To reinstall the same cask version (replace a broken app bundle without waiting for a formula bump): `brew reinstall --cask <cask>`.
