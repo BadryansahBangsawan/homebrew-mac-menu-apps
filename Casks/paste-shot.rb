@@ -1,6 +1,6 @@
 cask "paste-shot" do
-  version "1.0.10"
-  sha256 "dcbd2aa0e68da63ae053a5267c9d42666e4637973f0d3e2b641214d4a1dda054"
+  version "1.0.11"
+  sha256 "d04f436a2f050e69e170096dcd9e0ca44a48623bf7fbb972e13b213f18de8be6"
 
   url "https://github.com/BadryansahBangsawan/paste-shot/releases/download/v#{version}/PasteShot.app.zip"
   name "Paste Shot"
